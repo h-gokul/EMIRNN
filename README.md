@@ -10,7 +10,7 @@ We require the EdgeML repository from link : https://github.com/microsoft/EdgeML
 This needs to be downloaded and dependancies are installed from the requirements.txt file in this repository.
 
 We experiment with Daphnet Dataset from UCI Machine Learning dataset collections. This dataset is about classifying gait modes of Parkinson's disease patients based on body worn accelerometer signals. 
-It is assumed that the dataset folder is downloaded from the link :https://archive.ics.uci.edu/ml/datasets/Daphnet+Freezing+of+Gait
+It is assumed that the dataset folder is downloaded from the [link](https://archive.ics.uci.edu/ml/datasets/Daphnet+Freezing+of+Gait)
 
 # File description:
 DataPreprocessing.ipynb :The continuously logged and labelled accelerometer data from the patients is concatenated to a single dataframe. The unnecessary labels "debriefing-0" is removed and "Pre-FOG" label is concatenated. The continuous data is split into windows of 1,2,3,4 sec lengths and framed as dataframes with 3 labelled classes.  
