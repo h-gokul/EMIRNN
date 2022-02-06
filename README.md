@@ -17,12 +17,12 @@ DataPreprocessing.ipynb :The continuously logged and labelled accelerometer data
  
 trained baseline rnn models are saved as .h5 files  
 
-00_baseline_LSTM&GRU_example.ipynb contains python script for training the model and load & testing it in runtime.
-0x_emi_xxxx_example.ipynb files contains the script for training the model for that xxxx RNN model
-0x_emi_xxxx_initialization_and_restoring.ipynb files contains the script for  loading and testing  that xxxx RNN model
+```00_baseline_LSTM&GRU_example.ipynb``` contains python script for training the model and load & testing it in runtime.
+```0x_emi_xxxx_example.ipynb``` files contains the script for training the model for that xxxx RNN model
+```0x_emi_xxxx_initialization_and_restoring.ipynb``` files contains the script for  loading and testing  that xxxx RNN model
 
 Note: Files named as 1) 0x_emi_xxxx_example.ipynb and  2) 0x_emi_xxxx_initialization_and_restoring.ipynb are to be moved to 
-..\EdgeML\tf\examples\EMI-RNN  in order to execute without dependancy issues.
+```..\EdgeML\tf\examples\EMI-RNN```  in order to execute without dependancy issues.
 
 Models will be stored in a folder once the training process in 1) is done. Can be restored and tested with 2)
 
